@@ -5,3 +5,60 @@ html {
 *, *:after, *:before {
   box-sizing: inherit;
 }
+
+body {
+  background-color: #2C2141;
+  padding: 16px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  background-color: #F8F8F8;
+  border-radius: 16px;
+  max-width: 624px;
+  width: 100%;
+  min-height: 320px;
+  padding: 32px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.card__image {
+  max-width: 148px;
+  max-height: 148px;
+  border-radius: 50%;
+  margin-right: 32px;
+}
+
+.card__about__title {
+  margin: 0;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.card__about__job {
+  color: #545454;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.card__about__description {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.card__about__strong {
+  color: #ED6D05;
+}
+
+.card__about__link {
+  color: #E20613;
+  text-decoration: none;
+}
